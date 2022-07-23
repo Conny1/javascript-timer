@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;1,400&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: url(timer.jpg) no-repeat center center/cover ;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-container{
+    background-color: #fff;
+    width: 40%;
+    height: 50vh;
+    border: 1px inset;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+       
+}
+.time{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+button{
+    color: #fff;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    margin: 30px;  
+}
